@@ -22,3 +22,9 @@ Course Content
 
 Basic queries, polling data, RQ dev tools, Create reusable query hooks, Query by ID, Parallel queries, Dynamic queries, Dependent queries, Infinite & paginated queries, Update data using mutations, Invalidate queries, Optimistic updates, Axios Interceptor. 
 
+--------------------------------------------------------------------------------------
+
+Lesson 6, Query Cache
+
+React Query Cache has a default of 5 min. cache.
+
