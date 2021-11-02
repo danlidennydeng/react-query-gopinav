@@ -28,3 +28,19 @@ Lesson 6, Query Cache
 
 React Query Cache has a default of 5 min. cache.
 
+If a user click the link within 5 min., the loading would be false, but the fetching would be true. The OLD data would show first and fast, while the new data would show a little better later.
+
+The request would aways ask the server to load and fetch new data, the user would see the new data first then old data second, the "loading..." won't be shown.
+
+------------------------------------------------------------------------------------
+
+Lesson 7, Stale Time
+
+The default is 0 second.
+
+If stale time set up as 30 seconds, a user click the link within 30 seconds, the loading and fetching both will be false. This means it shows only OLD data instead of asking server to load or fetch new data again. Server would save some works in this case. 
+
+However, the drawback is that the user won't see the new data if she clicks the link within 30 seconds. Of course, if the user click the link again after 30 seconds, she would see the new data again.
+
+
+
