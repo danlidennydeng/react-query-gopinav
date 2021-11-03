@@ -36,11 +36,35 @@ The request would aways ask the server to load and fetch new data, the user woul
 
 Lesson 7, Stale Time
 
-The default is 0 second.
+The default staleTime is 0 second.
 
 If stale time set up as 30 seconds, a user click the link within 30 seconds, the loading and fetching both will be false. This means it shows only OLD data instead of asking server to load or fetch new data again. Server would save some works in this case. 
 
 However, the drawback is that the user won't see the new data if she clicks the link within 30 seconds. Of course, if the user click the link again after 30 seconds, she would see the new data again.
 
+------------------------------------------------------------------------------------
 
+Lesson 8, Refetch
 
+refetchOnMount: true, is default. isFetching: true
+refetchOnMount: 'always', isFetching: true, even if data is within staletime
+refetchOnMount: false, isFetching: false
+
+refetchOnWindowFocus: true, is default. isFetching: true
+refetchOnWindowFocus: 'always', isFetching: true, even if data is within staletime
+refetchOnWindowFocus: false, isFetching: false
+-----------------------------------------------------------------------------------
+
+Lesson 9, Polling
+
+refetchInterval: false, is default.
+refetchInterval: 20000, refetching every 20 seconds.
+
+refetchIntervalInBackground: true, refetching even if window is not active in background.
+
+{
+refetchOnWindowFocus: 'always',
+refetchInterval: 500, // one-half second
+refetchIntervalInBackground: true
+}
+// would the above combination can create a real-time chat?
