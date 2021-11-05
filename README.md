@@ -67,4 +67,16 @@ refetchOnWindowFocus: 'always',
 refetchInterval: 500, // one-half second
 refetchIntervalInBackground: true
 }
-// would the above combination can create a real-time chat?
+// would the above combination create a real-time chat?
+------------------------------------------------------------------------------------
+
+Lesson 10, useQuery on Click
+
+{
+  // cacheTime: 5000,
+
+  enabled: false
+  // would neither load or fetch by clicking on link
+}
+
+enabled: true, is default
