@@ -5,6 +5,7 @@ import './App.css';
 import { SuperHeroesPage } from './components/SuperHeroes.page';
 import { RQSuperHeroesPage } from './components/RQSuperHeroes.page';
 import { HomePage } from './components/Home.page';
+import { RQSuperHeroPage } from './components/RQSuperHero.page';
 
 const queryClient = new QueryClient()
 
@@ -28,6 +29,10 @@ function App() {
         </nav>
 
         <Switch>
+          <Route path='/rq-super-heroes/:heroId'>
+            <RQSuperHeroPage />
+          </Route>
+
           <Route path='/super-heroes'>
             <SuperHeroesPage />
           </Route>

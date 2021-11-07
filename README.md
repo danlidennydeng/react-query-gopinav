@@ -91,4 +91,20 @@ enabled: true, is default
 
 Lesson 12, Data Transfermation
 
-What is purpose of this page?
+What is purpose of this page, since we could data in a different way? 
+
+---------------------------------------------------------------------------------
+
+Lesson 13, Custom Query Hook
+
+Data Transfermation is the only purpose for Custom Query Hook?
+
+-----------------------------------------------------------------------------
+
+Lesson 14, Query by ID
+
+1. create a new page that will eventually display the details about one single super hero.
+
+2. configure the route to that page and add a link from the super heroes list page to an individual super hero detail page.
+
+3. fetch a superhero by id and display the details in the UI
