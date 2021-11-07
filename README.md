@@ -24,6 +24,12 @@ Basic queries, polling data, RQ dev tools, Create reusable query hooks, Query by
 
 --------------------------------------------------------------------------------------
 
+Lesson 3, Fetching data with useQuery
+
+data?.data 
+// optional chaining, JSX would not threw a error if data does not exist.
+--------------------------------------------------------------------
+
 Lesson 6, Query Cache
 
 React Query Cache has a default of 5 min. cache.
@@ -80,3 +86,9 @@ Lesson 10, useQuery on Click
 }
 
 enabled: true, is default
+
+-----------------------------------------------------------------------------------
+
+Lesson 12, Data Transfermation
+
+What is purpose of this page?
