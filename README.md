@@ -108,3 +108,5 @@ Lesson 14, Query by ID
 2. configure the route to that page and add a link from the super heroes list page to an individual super hero detail page.
 
 3. fetch a superhero by id and display the details in the UI
+
+This is a very important and useful parttern. 
