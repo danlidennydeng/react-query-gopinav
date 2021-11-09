@@ -110,3 +110,15 @@ Lesson 14, Query by ID
 3. fetch a superhero by id and display the details in the UI
 
 This is a very important and useful parttern. 
+
+------------------------------------------------------------------------------
+
+Lesson 15, Parallel Queries
+
+queries for two APIs at the same time
+
+-----------------------------------------------------------------------------
+
+Lesson 16, Dynamic Parallel Queries
+
+Prepare for dependend queries? We will see...
